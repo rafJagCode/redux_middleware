@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import TimeDisplayer from './TimeDisplayer'
+import MoviesContainer from './app/movies/components/MoviesContainer'
+import MoviesForm from './app/movies/components/MoviesForm'
 
 function App() {
   return (
     <div className="App">
-      <TimeDisplayer/>
+      <MoviesContainer/>
+      <MoviesForm/>
     </div>
   );
 }

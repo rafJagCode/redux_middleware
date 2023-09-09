@@ -1,9 +1,7 @@
-import {createStore, applyMiddleware} from 'redux'
-import timeReducer from './redux/reducer'
-import {confirmationMiddleware, apiMiddleware} from './redux/middlewares'
+import {createStore} from 'redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
+import rootReducer from './reducers'
 
-
-
-const store = createStore(timeReducer, applyMiddleware(confirmationMiddleware,apiMiddleware))
+const store = createStore(rootReducer, composeWithDevTools())
 
 export default store
