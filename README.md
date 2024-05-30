@@ -5,49 +5,31 @@ Simple project to present usage and folder structure of react redux with middlew
 ---
 
 ## Table of Contents
-* [General Informations](#general-informations)
-* [Usage](#usage)
-* [License](#license)
 
----
+ [⚓General Informations](#general-informations)
+ 
+[⚓Usage](#usage)
+
+[⚓License](#license)
 
 ## General Informations
 
 In redux/movies folder is defined simple state with movies list and two components one for displaying movies as list and second is a form for adding movies. In redux/time folder is simple time updating component with middleware for confirmation and to fetch time from api.
 
----
-
 ## Usage
 
-In the project directory, you can run:
+- To launch app in development mode at localhost:3000 run:
 
-### `yarn start`
+  ```sh
+  yarn start
+  ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- To build app for prodution run:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
----
+  ```sh
+  yarn build
+  ```
 
 ## License
 
 MIT
-
-
-[javascript]: <https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl>
-[pngjs]: <https://www.npmjs.com/package/pngjs>
